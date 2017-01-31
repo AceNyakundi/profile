@@ -1,0 +1,93 @@
+/*A formal page design for the page*/
+body{
+	background-color:  	#680000;
+}
+h1{
+	font-family:raavie,cursive,times;
+	font-size: 2em;
+}
+h1.txt-shadow{
+	color: white;
+	text-align:center; font-family:cursive,times; text-shadow:5px 5px 5px #fc6;
+}
+div#main0{
+	margin-top: 10%;
+}
+img#im0{
+	border-radius: 5%;
+}
+.footer>a:hover>img.FLink{
+	height: 200px;width:200px;
+}
+
+h3.sub-heading{
+	font-family: sans-serif,impact,cursive,times;
+	text-align: center;border-radius: 5px;
+	background-color: #6633FF;
+	color: #680000;text-shadow:5px 5px 5px #B0B0B0;
+}
+.sub-heading >a{
+	text-decoration: none;
+	font-family: sans-serif,impact,cursive,times;
+	text-align: center;border-radius: 5px;
+	background-color: #6633FF;
+	color: #680000;text-shadow:5px 5px 5px #B0B0B0;
+}
+div#footer >a:hover>img{
+	height:300px;width:300;
+}
+div.footer >a>img{
+	height:100px;width:100;
+	}
+div#links > a{
+	right:0px;
+	
+}
+div#links{
+	float: right;
+}
+span.lbl{
+	font-family:Verdana,times,impact;font-size:1.5em;color:#303;
+}
+span.txt{
+	font-family:'Arial Narrow';font-size:1.5em;
+	margin-left: 1.5em;font-style: underline italic;
+}
+div#head0{
+	height:1em;
+}
+
+/****************************************************************************/
+/*********************Below is the style for dropdown menu*******************/
+/***************************************************************************/
+   div#myheader{
+	height: 100px;background:#d2e9ff;border-bottom: #09f solid 1px;   
+   }
+		div#logo{
+				height:75px; border:2px #09F dashed;
+				font-size: 44px;
+				padding: 0px 12px;			
+			}
+		div#headermenusystem{
+			margin-left: 32%; /*edit this to change menu position at center*/
+		}
+		div#headermenusystem > div{
+			float: left;margin:0px 21px;
+		}
+		div.dropmenus{
+			position: absolute; top: 110;display: none;width: 120px;z-index:2;padding: 2px;background:#680000; /*#d2e9ff*/
+			border:#0385cb 2px solid;border-top:none;
+			-moz-border-radius:0px 0px 8px 8px;
+			border-radius:0px 0px 8px 8px;
+		}
+		div.dropmenus > a{
+		display: block;margin:4px; padding:7px;font-size:14;text-decoration:none;background:#e8e8e8;border:#655;color: #000;
+		-moz-border-radius:3px;
+			border-radius:3px;
+		}
+		div.dropmenus > a:hover{
+		border:1px solid #06f;color: #06f; text-shadow:3px 3px 3px #680000;	
+		}
+		.menu-head:hover{
+			text-shadow:3px 3px 3px #d2e9ff;
+		}
